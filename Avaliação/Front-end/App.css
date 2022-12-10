@@ -1,0 +1,96 @@
+body {
+  background-color: rgb(105, 0, 0);
+}
+
+.App {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  top: 15%;
+}
+
+.direita {
+  width: 50%;
+  color: white;
+  padding-top: 1%;
+}
+
+.direita input, label {
+  margin: auto;
+  margin-left: 2%;
+}
+
+.direita input {
+  border-radius: 5px;
+  border: 2px solid;
+  border-color: white;
+  outline: 0;
+}
+
+.esquerda {
+  color: white;
+  text-align: center;
+  width: 50%;
+}
+
+#buscanome {
+  padding-bottom: 20px;
+}
+
+form {
+  width: 70%;
+  display: block;
+  margin: auto;
+  color: white;
+}
+
+form, input {
+  margin-top: 20px;
+}
+
+input:hover {
+  border: 2px solid;
+  border-color: orange;
+  transition: 0.4s;
+}
+
+table, th, td {
+  width: 80%;
+  text-align: center;
+  color: white;
+  border: 2px solid;
+  border-color: white;
+  margin: auto;
+  padding-left: 40px;
+  padding-right: 30px;
+}
+
+thead {
+  margin: auto;
+  background-color: orange;
+}
+
+#baixo, #maisbaixo{
+  display: flex;
+  margin: 10px;
+  border: 2px solid;
+  border-color: white;
+  color: white;
+}
+
+#salva {
+  margin-right: 4%;
+}
+
+::selection {
+  background-color: orange;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+}
