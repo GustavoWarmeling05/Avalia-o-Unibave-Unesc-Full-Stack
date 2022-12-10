@@ -28,5 +28,10 @@ public class FilmeService {
     public Boolean excluirFilme(Long id) {
         repository.deleteById(id);
         return true;
-    } 
+    }
+
+    public List<Filme> findByNameIgnoreCase(String name) {
+        return repository.findByNameIgnoreCase(name);
+    }
+
 }

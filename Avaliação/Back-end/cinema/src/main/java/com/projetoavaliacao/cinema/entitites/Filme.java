@@ -18,7 +18,7 @@ public class Filme {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     @NotBlank(message = "Nome obrigatorio")
-    private String nome;
+    private String name;
     @NotBlank(message = "Genero obrigatorio")
     private String genero;
     @NotBlank(message = "Ano obrigatorio")
